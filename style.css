@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #272727;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Signika Negative", sans-serif;
+  height: 100vh;
+}
+
+.nav-list {
+  margin-top: 1rem;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.5vh;
+}
+
+.nav-item a {
+  color: aliceblue;
+  letter-spacing: 1.2px;
+}
